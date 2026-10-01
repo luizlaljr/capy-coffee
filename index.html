@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#4a2817" />
+  <meta name="description" content="Capy Coffee — café com tempo, carinho e um cardápio inspirado na doçura das capivaras." />
+  <title>Capy Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Lilita+One&family=Lobster+Two:wght@700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="site-shell">
+    <section id="inicio" class="hero" aria-label="Capy Coffee">
+      <h1 class="sr-only">Capy Coffee</h1>
+      <p class="sr-only">Mais do que café, um tempo capivara.</p>
+
+      <nav class="hero-hotspots" aria-label="Navegação principal">
+        <a class="hotspot nav-home" href="#inicio"><span class="sr-only">Início</span></a>
+        <a class="hotspot nav-menu" href="#cardapio"><span class="sr-only">Cardápio</span></a>
+        <a class="hotspot nav-about" href="#sobre"><span class="sr-only">Sobre</span></a>
+        <a class="hotspot nav-visit" href="#visite"><span class="sr-only">Visite-nos</span></a>
+        <a class="hotspot hero-cta" href="#cardapio"><span class="sr-only">Conheça nosso cardápio</span></a>
+      </nav>
+
+      <div class="mobile-hero-copy" aria-hidden="true">
+        <div class="mobile-brand"><img src="./assets/mascot.webp" alt="" /><span>Capy Coffee</span></div>
+        <h2>Capy<br/>Coffee</h2>
+        <p>Mais do que café,<br/>um tempo capivara.</p>
+        <a href="#cardapio">Conheça nosso cardápio ↓</a>
+      </div>
+    </section>
+
+    <section id="cardapio" class="menu-section">
+      <img class="menu-decor menu-decor-left" src="./assets/menu-left.webp" alt="" aria-hidden="true" />
+      <img class="menu-decor menu-decor-right" src="./assets/menu-right.webp" alt="" aria-hidden="true" />
+
+      <div class="menu-heading">
+        <div class="menu-heading-row">
+          <svg class="leaf-icon leaf-icon-left" viewBox="0 0 46 42" aria-hidden="true"><path d="M25 31C11 27 7 16 8 6c12 0 22 5 26 16-4 0-9 1-12 3m0 0c5 0 11 2 15 9M22 25c-4-5-7-9-10-14"/></svg>
+          <h2>Nosso Cardápio</h2>
+          <svg class="leaf-icon" viewBox="0 0 46 42" aria-hidden="true"><path d="M25 31C11 27 7 16 8 6c12 0 22 5 26 16-4 0-9 1-12 3m0 0c5 0 11 2 15 9M22 25c-4-5-7-9-10-14"/></svg>
+        </div>
+        <p>Bebidas, doces e lanches inspirados na doçura das capivaras.</p>
+      </div>
+
+      <div class="menu-grid">
+        <div class="menu-column">
+          <article class="menu-item">
+            <img src="./assets/capy-coffee.webp" alt="Café Capy Coffee" />
+            <div class="item-copy"><h3>Capy Coffee</h3><p>Café especial com arte de capivara na espuma.</p><span class="price">R$ 10,00</span></div>
+          </article>
+          <article class="menu-item">
+            <img src="./assets/shake-capy.webp" alt="Shake Capy" />
+            <div class="item-copy"><h3>Shake Capy</h3><p>Shake delicioso com sabor único e bolinhas especiais.</p><span class="price">R$ 17,00</span></div>
+          </article>
+          <article class="menu-item">
+            <img src="./assets/capytinno.webp" alt="Capytinno" />
+            <div class="item-copy"><h3>Capytinno</h3><p>Café cremoso com chantilly e toque especial.</p><span class="price">R$ 22,00</span></div>
+          </article>
+          <article class="menu-item">
+            <img src="./assets/capystache.webp" alt="Capystache" />
+            <div class="item-copy"><h3>Capystache</h3><p>Bebida especial de pistache com espuma leve.</p><span class="price">R$ 12,00</span></div>
+          </article>
+          <article class="menu-item compact-item">
+            <img src="./assets/croissant.webp" alt="Croissant artesanal" />
+            <div class="item-copy"><h3>Croissant Artesanal</h3><ul><li>Nutella</li><li>Queijo</li></ul><span class="price">R$ 15,00</span></div>
+          </article>
+          <article class="menu-item compact-item">
+            <img src="./assets/sandwich.webp" alt="Sanduíche natural" />
+            <div class="item-copy"><h3>Sanduíche Natural</h3><ul><li>Presunto</li><li>Atum</li><li>Frango</li></ul><span class="price">R$ 12,00</span></div>
+          </article>
+        </div>
+
+        <div class="menu-column">
+          <article class="menu-item right-item">
+            <img src="./assets/especial.webp" alt="Especial da Capivara" />
+            <div class="item-copy"><h3>Especial da Capivara</h3><p>Bebida cremosa com chantilly, calda e toque especial.</p><span class="price">R$ 19,00</span></div>
+          </article>
+          <article class="menu-item right-item">
+            <img src="./assets/capy-cream.webp" alt="Capy Cream" />
+            <div class="item-copy"><h3>Capy Cream</h3><p>Sorvete cremoso com calda, frutas e muito sabor.</p><span class="price">R$ 15,50</span></div>
+          </article>
+          <article class="menu-item right-item">
+            <img src="./assets/torta-gourmet.webp" alt="Torta Gourmet" />
+            <div class="item-copy"><h3>Torta Gourmet</h3><p>Torta deliciosa e artesanal.</p><span class="price">R$ 19,00</span></div>
+          </article>
+          <article class="menu-item right-item">
+            <img src="./assets/donut.webp" alt="Donuts Recheado" />
+            <div class="item-copy"><h3>Donuts Recheado</h3><p>Donut macio e recheado.</p><span class="price">R$ 17,00</span></div>
+          </article>
+          <article class="menu-item right-item compact-item">
+            <img src="./assets/mexido-ovo.webp" alt="Mexido de Ovo" />
+            <div class="item-copy"><h3>Mexido de Ovo</h3><p>Ovos mexidos cremosos.</p><span class="price">R$ 16,00</span></div>
+          </article>
+          <article class="menu-item right-item compact-item">
+            <img src="./assets/pudim.webp" alt="Pudim de Café" />
+            <div class="item-copy"><h3>Pudim de Café</h3><p>Pudim suave com sabor de café.</p><span class="price">R$ 10,00</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="founder-section">
+      <img class="founder-visual" src="./assets/founder-visual.webp" alt="Menina segurando uma bebida da Capy Coffee" />
+      <div class="founder-copy">
+        <h2>A idealizadora <span aria-hidden="true">♥</span></h2>
+        <p>O Capy Coffee nasceu do amor da nossa pequena pela capivara e por momentos especiais.<br/>Cada receita foi pensada com muito carinho para tornar o seu dia mais doce e tranquilo. <span aria-hidden="true">♥</span></p>
+      </div>
+    </section>
+
+    <footer id="visite" class="footer">
+      <div class="footer-brand"><span class="footer-capy">♟</span><span>Capy Coffee</span></div>
+      <p>© 2026 Capy Coffee. Todos os direitos reservados.</p>
+      <div class="socials" aria-label="Redes e localização">
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="Localização">●</a>
+        <span aria-hidden="true">❧</span>
+      </div>
+    </footer>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
